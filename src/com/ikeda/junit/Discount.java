@@ -6,8 +6,7 @@ public class Discount {
     }
     //割引金の金額を計算する
     public int setDiscount(int price,double discount){
-        int afterDiscount = (int)(price*(1-discount));
-        return  afterDiscount;
+        return (int)(price*(1-discount));
     }
     public String calcRate(double rate1,double rate2){
         if(rate1>rate2){
@@ -20,8 +19,7 @@ public class Discount {
         return 10;
     }
     public String str(){
-        String str1 = "abc";
-        return str1;
+        return "abc";
     }
     public String str2(){
         String str1 = "abc";
@@ -39,25 +37,16 @@ public class Discount {
     }
 
     public String nullValue(String s){
-        String str = s;
-        return str;
+        return s;
     }
 
     public boolean trueValue(){
         int x = 10;
-        if(x==10){
-            return true;
-        }else{
-            return false;
-        }
+        return x == 10;
     }
     public boolean falseValue(){
         int x = 0;
-        if(x==10){
-            return true;
-        }else{
-            return false;
-        }
+        return x == 10;
     }
 
     public double sexCheck(String sex){

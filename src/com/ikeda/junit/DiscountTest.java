@@ -25,7 +25,7 @@ class DiscountTest {
 
     @Test
     void calcRate() {
-        Discount disc = new Discount();
+//        Discount disc = new Discount();
 //        assertEquals("OK",disc.calcRate(0.1,0.3),"値引き率が正しくありません。");
     }
 
@@ -62,6 +62,7 @@ class DiscountTest {
     void array() {
         Discount disc = new Discount();
         int[] ary = {0,1,2,3,4,5};
+        assertArrayEquals(ary,disc.array());
     }
 
     @Test

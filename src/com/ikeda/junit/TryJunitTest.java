@@ -2,8 +2,6 @@ package com.ikeda.junit;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class TryJunitTest {
 
     @BeforeEach
@@ -16,8 +14,7 @@ class TryJunitTest {
         System.out.println("@AfterEachです！");
     }
 
-    @Test
-    void main() {
+    public static void main(String[] args) {
         System.out.println("Test2です！");
     }
 
