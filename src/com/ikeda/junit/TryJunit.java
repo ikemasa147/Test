@@ -9,7 +9,6 @@ public class TryJunit {
     }
 
     public static void main(String[] args) {
-        // TODO
     }
 
     public void sub(){
