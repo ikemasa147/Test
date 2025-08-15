@@ -75,13 +75,13 @@ class DiscountTest {
     @Test
     void trueValue() {
         Discount disc = new Discount();
-        assertTrue(disc.trueValue());
+        assertTrue(disc.trueValue(10));
     }
 
     @Test
     void falseValue() {
         Discount disc = new Discount();
-        assertFalse(disc.falseValue());
+        assertFalse(disc.falseValue(0));
     }
 
     @Test
@@ -91,4 +91,7 @@ class DiscountTest {
         assertEquals(0.1,disc.sexCheck("m"),0.0);
     }
 
+    @Test
+    void testCalcRate() {
+    }
 }

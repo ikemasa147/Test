@@ -40,12 +40,10 @@ public class Discount {
         return s;
     }
 
-    public boolean trueValue(){
-        int x = 10;
+    public boolean trueValue(int x){
         return x == 10;
     }
-    public boolean falseValue(){
-        int x = 0;
+    public boolean falseValue(int x){
         return x == 10;
     }
 

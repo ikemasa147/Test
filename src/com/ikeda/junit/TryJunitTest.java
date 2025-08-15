@@ -32,4 +32,8 @@ class TryJunitTest {
     static void tearDownAll(){
         System.out.println("AfterAllです！");
     }
+
+    @Test
+    void testSub() {
+    }
 }
